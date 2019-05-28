@@ -56,6 +56,7 @@
             this.lvView.TabIndex = 0;
             this.lvView.UseCompatibleStateImageBehavior = false;
             this.lvView.View = System.Windows.Forms.View.Details;
+            this.lvView.Click += new System.EventHandler(this.LvView_Click);
             // 
             // lblName
             // 
@@ -121,6 +122,7 @@
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "추가";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // chName
             // 
@@ -129,7 +131,7 @@
             // 
             // chAge
             // 
-            this.chAge.Text = "직업";
+            this.chAge.Text = "나이";
             this.chAge.Width = 100;
             // 
             // chWork
